@@ -1,0 +1,60 @@
+.buttonComponents {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttonModal {
+    width: 100%;
+}
+
+.buttonView{
+    margin-left: 70%;
+    margin-top: -80px;
+}
+
+.buttonModalSpaceRight{
+    margin-right: 20px;
+}
+
+.buttonNew {
+    background-color: #7de71d;
+}
+
+.buttonNew:hover {
+    background-color: #1d7a21;
+}
+
+.buttonCancel {
+    background-color: #f44336;
+}
+
+.buttonCancel:hover{
+    background-color: #a3241b;
+}
+
+.buttonAdd {
+    background-color: #249ce2;
+    margin-top: 60px;
+}
+
+.buttonAdd:hover {
+    background-color: #084264;
+}
+
+@media screen and (max-width: 600px) {
+    .buttonComponents {
+        padding: 7px 18px;
+        font-size: 12px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .buttonAdd {
+        margin-top: 50px;
+    }
+}

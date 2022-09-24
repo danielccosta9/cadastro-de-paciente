@@ -1,0 +1,28 @@
+.marginTop {
+    margin-top: 2em;
+}
+
+.titleHeard{
+    margin-right: 3em;
+}
+
+.formSelect {
+    width: 95%;
+    font-size: 1.2rem;
+    border: solid 1px #dcd4d4;
+    border-radius: 1rem;
+    color: #1e1e1e;
+    background-color: #fff;
+    outline: none;
+}
+
+.formSelect:focus-visible {
+    outline: dotted 1px  rgba(255, 255, 255, 0.4);
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    object-fit: cover;
+}
