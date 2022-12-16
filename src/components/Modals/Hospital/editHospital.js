@@ -42,7 +42,7 @@ export default function ModalEditPaciente({ id }) {
                 setValues({});
             })
         alert('Atualizado com sucesso!');
-        window.location.reload(false);
+        handleClose();
     }
 
     function handleChange(event) {

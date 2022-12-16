@@ -29,7 +29,7 @@ export default function ModalAddPaciente() {
                 setValues({});
             })
         alert('Cadastrado com sucesso!');
-        window.location.reload(false);
+        handleClose();
     }
 
     function handleChange(event) {

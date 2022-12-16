@@ -46,7 +46,6 @@ function Paciente() {
         ]);
       })
     alert('Registro apagado com sucesso!');
-    window.location.reload(false);
   };
 
 
